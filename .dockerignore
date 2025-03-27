@@ -1,0 +1,25 @@
+# Go stuff
+*.exe
+*.test
+*.out
+
+# Git
+.git
+.gitignore
+
+# Editors
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+main
+
+# Archives
+*.zip
+
+# Other
+.env
