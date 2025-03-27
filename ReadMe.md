@@ -42,6 +42,7 @@ book-api/
 
 ```bash
 docker build -t book-api .
+```
 
 ## Run with Persistent JSON File
 
@@ -50,14 +51,17 @@ To make sure books.json changes are saved outside the container:
 On macOS/Linux:
 ```bash
 docker run -p 8000:8000 -v $(pwd)/books.json:/app/books.json book-api
+```
 
 On Windows (PowerShell):
 ```bash
 docker run -p 8000:8000 -v ${PWD}/books.json:/app/books.json book-api
+```
 
 ### Run the Container (without persistence)
 ```bash
 docker run -p 8000:8000 book-api
+```
 
 ---
 
